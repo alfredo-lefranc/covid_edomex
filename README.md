@@ -13,6 +13,7 @@ El análisis se realiza con Stata, a excepción de las estimaciones de la evoluc
 #### Archivos:
 
 * retrasos_edomex: documento final
+* img/ Contiene algunos de los resultados destacados del proyecto.
 * dofiles/01_descriptive_stats: Estadísticas descriptivas de casos y decesos en el Estado de México contra el resto del país.
 * dofiles/02_descriptive_maps: Mapas descriptivos sobre tasas de mortalidad, letalidad y casos y decesos acumulados por Estado y por municipio del Estado de México.
 * dofiles/03_fecha_reporte_decesos: Se realiza el cálculo de los días de retraso en reportes de decesos usando todas las bases reportadas por la SSP de abril a octubre.
@@ -25,11 +26,11 @@ El análisis se realiza con Stata, a excepción de las estimaciones de la evoluc
 
 #### Algunos resultados
 
-<img src="img/retrasos_poredo.tif" width="1048">
+<img src="img/retrasos_poredo.jpg">
 
-<img src="img/curvas_pais_edo.tif" width="1048">
+<img src="img/curvas_pais_edo.jpg">
 
-![img](img/mapdelays_edo2.tif)
+![img](img/mapdelays.jpg)
 
-<img src="img/Ocurred.png" width="720">
+<img src="img/ocurred.jpg">
 
