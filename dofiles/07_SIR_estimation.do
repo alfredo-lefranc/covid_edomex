@@ -66,7 +66,7 @@ format date %tdYY-nn-dd
 drop if date1 > 22188
 // hasta 30 sept
 
-* formato como el de Tiago que vimos en Python para que haga match
+* formato como el de Tiago que vimos en Python para hacer el match
 
 keep date occ_deaths_metro rep_deaths_metro cases
 rename occ_deaths_metro deaths_occurred

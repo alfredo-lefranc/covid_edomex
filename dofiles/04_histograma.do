@@ -58,7 +58,7 @@ cd "$graphs"
 
 graph export retrasos_poredo.tif, replace
 
-/* este es el que pidió alejandro fajardo de la distribución para retrasos mayores a 30
+/* distribución para retrasos mayores a 30
 
 label variable retraso "Días de retraso"
 twoway (hist retraso if reportdate>22025 & retraso>30, ///
@@ -72,7 +72,7 @@ graph export retrasos30_poredo.tif, replace
 
 */
 
-* idea: del porcentaje de retrasos fuertes (mayores a 30), cuantos son en el EdoMex
+* del porcentaje de retrasos fuertes (mayores a 30), cuantos son en el EdoMex
 label var retraso "Días de retraso"
 twoway (hist retraso if reportdate>22025 & retraso>30, ///
 	frequency discrete bcolor(red%30)) ///
@@ -85,19 +85,6 @@ twoway (hist retraso if reportdate>22025 & retraso>30, ///
 graph export retrasos30_freq.tif, replace	
 
 
-
-
-/* misma grafica, retrasos mayores a 90
-twoway (hist retraso if reportdate>22025 & retraso>100, ///
-	frequency discrete bcolor(red%30)) ///
-	(hist retraso if reportdate>22025  & retraso>100 & entidad_res==15, ///
-	frequency discrete bcolor(black%30)), ///
-	ytitle(Frecuencia)  legend(order(1 "México" 2 "Estado de México")) ///
-	title("Frecuencia de retrasos mayores a 3 meses")
-
-graph export retrasos90_poredo.tif, replace
-
-
 *este es para hospitalizados y ambulatorios
 
 twoway (hist retraso_30 if reportdate>22025 & tipo_paciente==1, ///
@@ -107,7 +94,6 @@ twoway (hist retraso_30 if reportdate>22025 & tipo_paciente==1, ///
 	ytitle(Porcentaje)  legend(order(1 "Ambulatorio" 2 "Hospitalizado"))
 
 // muy parecido
-*/
 
 
 /*========================================
